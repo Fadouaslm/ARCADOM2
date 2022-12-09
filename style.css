@@ -14,6 +14,7 @@
 
 
   header{
+    
     background-color: var(--darkBlue-color);
     width: 100%;
     position: fixed;
@@ -28,18 +29,27 @@
 
  
   nav{
+  
     background: var(--darkBlue-color);
     height: 80px;
     width: 100%;
     
   }
   .main-btm{
-    padding: 16px 32px;
+    width: 160px;
+    height: 40px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 28px;
+    
+
     border-radius: 40px;
     color: var(--darkBlue-color);
     display: inline-block;
-    font-weight: 400;
-    font-size: 23px;
+   
     background: var(--pink-color);
     text-decoration: none;
     text-align: center;
@@ -56,7 +66,7 @@
     color: white;
     font-size: 30px;
     line-height: 40px;
-    padding: 0 100px;
+    padding: 0 50px;
     font-weight: bold;
   }
   nav ul{
@@ -83,6 +93,7 @@
     padding: 7px 13px;
     border-radius: 3px;
     
+    
   }
   a.active,a:hover{
     background: #171331;
@@ -103,6 +114,13 @@
     min-height: 100vh;
     background-color: var(--darkBlue-color);
    
+ }
+ .logoimg{
+  position: absolute;
+  width: 176px;
+  height: 175px;
+  left: 72px;
+  top: -20px;
  }
  .circular--square { border-radius:50%; 
     clip-path: circle();
@@ -132,6 +150,32 @@
     flex-direction: row;
     flex-wrap: wrap;
     
+ }
+ .contentee{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+justify-content: space-between;
+
+  
+  
+ }
+ .contentee{
+  margin: 7.5em;
+ }
+ .contentee img{
+  width: 14em;
+  height: 14em;
+ }
+
+ .sponsors{
+  padding-top: 15.437em;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--darkBlue-color);
+
  }
  
  .card{
