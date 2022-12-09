@@ -68,7 +68,7 @@
                     </p>
                 </div>
                 <div class="right">
-                    <img src="images/computer.png" />
+                    
                 </div>
             </div>
         </section>
@@ -87,15 +87,89 @@
                     <p>Month,Day</p>
                 </div>
             </div>
+
+
+
             <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slidea">Slide 1</div>
-                  <div class="swiper-slidea">Slide 2</div>
+                <div class="hott">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                       
+                            <div  class="all"> 
+                                <div class="time">
+                                    <ul>
+                                        <li>8:00 - 8:30</li>
+                                        <li> 8:30 - 9:00</li>   
+                                        <li>  9:00 - 10:00</li>
+                                        <li>10:00 - 12:00</li>  
+                                        <li>12:00 - 12:45</li>      
+                                        <li> 12:45 - 14:00</li>    
+                                        <li> 14:00 - 16:00</li>
+                                        <li>16:00 - 17:00</li>
+                                    </ul>    
+                                </div>
+                                <div class="work">
+                                        <ul>
+                                            <li>Check in  </li>
+                                            <li>Opening cermony </li>   
+                                            <li>Conference
+                                                ( video game roadmap ) </li>
+                                                  
+                                            <li>Workshops
+                                                ( level 1): game dev  / game design </li>  
+                                            <li>Lunch break</li>      
+                                            <li> Praying time</li>    
+                                            <li> Workshops
+                                                ( level 2 ): 3D modeling / game networking </li>  
+                                            <li>Team bulding </li></ul>   
+                                </div>
+                               
+                            </div>
+                          </div>
+                           
+                          <div class="swiper-slide">
+                            <div  class="all"> 
+                                <div class="time">
+                                    <ul>
+                                        <li>8:00 - 8:30</li>
+                                        <li> 8:30 - 9:00</li>   
+                                        <li>  9:00 - 10:00</li>
+                                        <li>10:00 - 12:00</li>  
+                                        <li>12:00 - 12:45</li>      
+                                        <li> 12:45 - 14:00</li>    
+                                        <li> 14:00 - 16:00</li>
+                                        <li>16:00 - 17:00</li>
+                                    </ul>    
+                                </div>
+                                <div class="work">
+                                        <ul>
+                                            <li>Check in  </li>
+                                            <li>Opening cermony </li>   
+                                            <li>Conference
+                                                ( video game roadmap ) </li>
+                                                  
+                                            <li>Workshops
+                                                ( level 1): game dev  / game design </li>  
+                                            <li>Lunch break</li>      
+                                            <li> Praying time</li>    
+                                            <li> Workshops
+                                                ( level 2 ): 3D modeling / game networking </li>  
+                                            <li>Team bulding </li></ul>   
+                                </div>
+                               
+                            </div>
+                          </div>
+                    </div>
                 </div>
+            
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-pagination"></div>
-            </div>
+              </div>
+
+
+
+
         </div>
     </section>
 
@@ -151,8 +225,7 @@
     <section class="FAQ" id="FAQ">
         <p><h2 class="title">FAQ</h2> </p> 
 
-
-        <div class="swiper mySwiper">
+        <div class="swiper mySwiperr">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <p><h2 class="titlee">Lorem Lorem ipsum dolor</h2> </p> 
@@ -179,21 +252,31 @@
             
           </div>
       
-          <!-- Swiper JS -->
-          <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-      
-          <!-- Initialize Swiper -->
-          <script>
-            var swiper = new Swiper(".mySwiper", {
-              spaceBetween: 30,
-              effect: "fade",
+           <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          type: "progressbar",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+        <script>
+            var swiper = new Swiper(".mySwiperr", {
+              pagination: {
+                el: ".swiper-pagination",
+                type: "progressbar",
+              },
               navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
-              },
-              pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
               },
             });
           </script>
@@ -205,7 +288,7 @@
         <div class="contente">
             
                 <div class="imag">
-                    <img  src="images/LOGO white.png"  />
+                    <img  class ="log" src="images/Frame 31.png"  />
                 </div>
             
                 <div class="imag">
@@ -222,9 +305,7 @@
                 <div class="cercle"> <a href="#"><i class="fa-brands fa-twitter"></i></a></div>
                
          </div>
-         <div class="final">
-            <p>Copyright © 2021 Club Scientifique de l'ESI.</p>
-         </div>
+
     </section>
     
 </body>
