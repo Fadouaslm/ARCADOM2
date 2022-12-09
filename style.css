@@ -121,7 +121,8 @@ padding-bottom: 7px;
 
   width: 176px;
   height: 175px;
-  left: 72px;
+  left: 5px;
+  margin-right: 7px;
   top: -20px;
  }
  .circular--square { border-radius:50%; 
@@ -346,20 +347,23 @@ justify-content: space-between;
   #check{
     display: none;
   }
-  @media (max-width: 952px){
+  @media (max-width: 1085px){
     label.logo{
       font-size: 30px;
       padding-left: 50px;
     }
     nav ul li a{
-      font-size: 16px;
+      font-size: 20px;
     }
     .main-btm{
       width: 180px;
       height: 35px;
       font-size: 16px;
     }
-
+.logoimg{
+  width: 120px;
+  height: 120px;
+}
     .swiper {
  
       width: 30em;
@@ -372,7 +376,7 @@ justify-content: space-between;
       font-size: 20px;
     }
   }
-  @media (max-width: 858px){
+  @media (max-width: 960px){
     .checkbtn{
       display: block;
     }
