@@ -216,9 +216,9 @@ margin-top: 20px;
 .about-section .right img{
 display: block;
 margin-left: 70px;
-margin-right: auto;
+display: block;
 margin-top: 95px;
-width: 70%;
+width: 80%;
 }
 
 
@@ -425,6 +425,7 @@ align-self: center;
   clip-path: circle();
   margin-right: 2em;
  padding: 1.8em;
+ 
 
 
 
@@ -541,7 +542,11 @@ line-height: 40px;
   display: none;
 }
 @media (max-width: 952px){
+  .about-section .right img{
+    display: none;
+  }
   label.logo{
+
     font-size: 30px;
     padding-left: 50px;
   }
@@ -566,7 +571,10 @@ line-height: 40px;
     font-size: 20px;
   }
 }
-@media (max-width: 858px){
+@media (max-width: 867px){
+  .about-section .right img{
+    display: none;
+  }
   .checkbtn{
     display: block;
   }
