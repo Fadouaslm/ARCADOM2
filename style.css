@@ -36,16 +36,16 @@
     
   }
   .main-btm{
-    width: 160px;
-    height: 40px;
+    width: 220px;
+    height: 50px;
     
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 600;
-    font-size: 23px;
+    font-weight: 500;
+    font-size: 20px;
     line-height: 28px;
     
-
+padding-bottom: 7px;
     border-radius: 40px;
     color: var(--darkBlue-color);
     display: inline-block;
@@ -72,6 +72,7 @@
   nav ul{
     float: right;
     margin-right: 5px;
+    justify-content: space-between;
   }
   nav ul li{
     font-family: 'Circular Std',sans-serif;
@@ -115,8 +116,9 @@
     background-color: var(--darkBlue-color);
    
  }
- .logoimg{
+ nav .logoimg{
   position: absolute;
+
   width: 176px;
   height: 175px;
   left: 72px;
@@ -352,6 +354,12 @@ justify-content: space-between;
     nav ul li a{
       font-size: 16px;
     }
+    .main-btm{
+      width: 180px;
+      height: 35px;
+      font-size: 16px;
+    }
+
     .swiper {
  
       width: 30em;
