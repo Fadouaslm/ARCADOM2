@@ -104,9 +104,9 @@ a.active,a:hover{
  
 
 .hero-section{
+ 
   display: flex;
-  height: 100vh;
-  width: 100%;
+ 
   justify-content: space-between;
   align-items: center;
   padding: 5.063em;
@@ -120,8 +120,8 @@ a.active,a:hover{
   line-height: 1.0em;
   color: #FFFFFF;
   font-family: 'DEBUG FREE TRIAL',sans-serif;
-  margin-top: 5.0em;
-  width: 35.188em;
+  
+  
   margin-bottom: 30px;
 }
 
@@ -149,7 +149,7 @@ font-family: 'Inter',sans-serif;
 }
 
 .about-section{
-margin-top: 460px;
+
 display: flex;
 padding-left: 3.55em;
 gap: 69px;
@@ -191,9 +191,7 @@ width: 70%;
 }
 
 
-.agenda-section{
-margin-top: 400px;
-}
+
 
 .agenda-section h2{
 font-family: 'DEBUG FREE TRIAL',sans-serif;
@@ -254,7 +252,7 @@ gap: 20px;
   display: none;
 }
 .main{
-  padding-top: 15.437em;
+  padding-top: 15em;
   width: 100%;
   min-height: 100vh;
   background-color: var(--darkBlue-color);
@@ -399,7 +397,7 @@ align-self: center;
 
 }
 .FAQ{
-  padding-top: 15.437em;
+  padding-top: 13em;
   background-color: var(--darkBlue-color);
   text-align: center;
  
@@ -485,7 +483,11 @@ line-height: 40px;
   margin-bottom: 50px;
   
 }
-
+.final{
+  background-color: #efffff;
+  text-align: center;
+  margin-top: 3px;
+}
 
 #check{
   display: none;
