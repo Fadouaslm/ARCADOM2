@@ -12,6 +12,9 @@
   box-sizing: border-box;
 }
 
+ .hott .swiper{
+  background-color: var(--darkBlue-color);
+}
 
 header{
   
@@ -168,9 +171,37 @@ margin: 0;
 color:#FFFFFF;
 }
 
-.about-section.right{
-margin: 45px;
+.agenda-section .all{
+  margin-top: 20px;
+  display: flex;
+  gap:45px;
+  text-align: center;
+  background-color: var(--darkBlue-color);
+  
+}
+.agenda-section .time{
+  font-family: 'Inter',sans-serif;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: rgba(255, 255, 255, 0.63);
+}
 
+.agenda-section ul li{
+
+  margin-bottom: 20px;
+  flex: none;
+order: 1;
+flex-grow: 0;
+}
+.agenda-section .work{
+  font-family: 'Swansea',sans-serif;
+font-weight: 700;
+font-size: 21px;
+
+text-align: left;
+color: #FFFFFF;
 }
 
 .about-section p{
@@ -260,9 +291,9 @@ gap: 20px;
 }
 nav .logoimg{
 position: absolute;
-
-width: 176px;
-height: 175px;
+padding-top: 2px;
+width: 150px;
+height: 150px;
 left: 72px;
 top: -20px;
 }
@@ -296,16 +327,18 @@ top: -20px;
   
 }
 .contentee{
-display: flex;
+display:flex;
 justify-content: center;
 flex-direction: row;
 flex-wrap: wrap;
-
+margin-right: 10%;
+margin-left: 10%;
 justify-content: space-between;
 
 
 
 }
+
 
 .contentee img{
 width: 14em;
@@ -358,12 +391,12 @@ color: #efffff;
   text-align: center;
 }
 .imag{
-  margin: 4em;
-  
+  margin: 4em;  
 
-
-  
+ 
 }
+
+
 
 .social-icon{
   flex-direction: row;
@@ -403,19 +436,33 @@ align-self: center;
  
 }
 
-.swiper  {
+.mySwiper  {
   display: flex;
   justify-content: center;
-  background-color:#efffff;
+  background-color:var(--darkBlue-color);
   width:60.625em ;
   height: 31.5em;
   border-radius: 50px;
-  box-shadow: 0 0 4px 0 rgba(255, 255, 255, 0.932), 0 2px 4px 0 hsl(226, 54%, 80%);
+  
    text-align: center;   
    padding: 5.5em;
 
 
 }
+.mySwiperr  {
+  display: flex;
+  justify-content: center;
+  background-color:white;
+  width:60.625em ;
+  height: 31.5em;
+  border-radius: 50px;
+  
+   text-align: center;   
+   padding: 5.5em;
+
+
+}
+
 .titlel{
   display: flex;
   justify-content: center;
@@ -441,6 +488,7 @@ min-height: 100vh;
   font-size: 24px;
   line-height: 30px;
 }
+
 .sponsors{
   padding-top: 15.437em;
   background-color: var(--darkBlue-color);
