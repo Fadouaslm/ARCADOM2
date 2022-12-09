@@ -3,10 +3,6 @@
 		{
 			"name": "ARCADOM",
 			"path": "."
-		},
-		{
-			"name": "images",
-			"path": "../ESMS/images"
 		}
 	],
 	"settings": {}
