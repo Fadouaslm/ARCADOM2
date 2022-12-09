@@ -159,14 +159,15 @@ padding-bottom: 7px;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 50px;
 
-justify-content: space-between;
 
   
   
  }
  
  .contentee img{
+  margin-right: 90px;
   width: 14em;
   height: 14em;
  }
@@ -408,6 +409,11 @@ justify-content: space-between;
     }
     nav ul li a{
       font-size: 20px;
+    }
+    .contentee img{
+      width: 10em;
+      height: 10em;
+
     }
     a:hover,a.active{
       background: none;
