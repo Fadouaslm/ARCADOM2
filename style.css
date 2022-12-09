@@ -312,6 +312,36 @@ justify-content: space-between;
  line-height: 40px;
  /* or 125% */
  }
+  .FAQ{
+    padding-top: 15.437em;
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--darkBlue-color);
+  }
+  .swiper {
+    width: 60em;
+    height: 31em;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  
+  }
+  .titlee{
+    display: flex;
+    justify-content: center;
+    
+    font-family: 'DEBUG FREE TRIAL',sans-serif;
+    color:black;
+    font-weight:400 ;
+    font-size: 60px;
+    margin-top: 37px;
+    margin-bottom: 50px;
+    
+  }
+
+ 
   #check{
     display: none;
   }
