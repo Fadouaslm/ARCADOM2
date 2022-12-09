@@ -162,9 +162,7 @@ justify-content: space-between;
   
   
  }
- .contentee{
-  margin: 7.5em;
- }
+ 
  .contentee img{
   width: 14em;
   height: 14em;
@@ -258,7 +256,7 @@ justify-content: space-between;
     padding-top: 15.437em;
     background-color: var(--darkBlue-color);
     text-align: center;
-    padding-bottom: 70px;
+   
  }
  
  .swiper  {
@@ -319,6 +317,7 @@ justify-content: space-between;
     background-color: var(--darkBlue-color);
   }
   .swiper {
+    box-shadow: 0 50px 50px var(#E830DE);
     width: 60em;
     height: 31em;
   }
@@ -353,10 +352,32 @@ justify-content: space-between;
     nav ul li a{
       font-size: 16px;
     }
+    .swiper {
+ 
+      width: 30em;
+      height: 31em;
+    }
+    .titlee{
+      font-size: 45px;
+    }
+    .swiper-slide{
+      font-size: 20px;
+    }
   }
   @media (max-width: 858px){
     .checkbtn{
       display: block;
+    }
+    .swiper-slide{
+      font-size: 20px;
+    }
+    .titlee{
+      font-size: 45px;
+    }
+    .swiper {
+ 
+      width: 30em;
+      height: 31em;
     }
     ul{
       position: fixed;
